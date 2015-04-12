@@ -12,8 +12,8 @@ function swap (&$a,&$b)
 };
 if ($call==1)
 {
-$x=$x+$y;//x=1 y=2//x=3
-$y=$x-$y;//y=3-2//y=1
+$x=$x+$y;
+$y=$x-$y;
 $x=$x-$y;
 echo "x=".$x."<br>";
 echo "y=".$y;
